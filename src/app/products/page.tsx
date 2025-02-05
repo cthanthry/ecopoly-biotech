@@ -2,7 +2,6 @@
 
 import Masonry from "react-masonry-css";
 import Image from "next/image";
-import Navbar from "@/components/ui/navbar";
 
 
 const products = [
@@ -23,11 +22,8 @@ const breakpointColumnsObj = {
 
 export default function Products() {
   return (
-    <div className="grid items-center justify-items-center min-h-screen bg-slate-200 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col items-center">
-      <nav className="absolute top-0 right-0 left-0 ">
-      <Navbar/>
-      </nav>
+    <div className="flex flex-col items-center justify-items-center h-screen w-screen inset-0 bg-[url('/cloud.jpeg')] font-[family-name:var(--font-geist-sans)]">
+      <main className="flex flex-col min-h-screen w-full items-center overflow-y-auto no-scrollbar">
         <Masonry 
           breakpointCols={breakpointColumnsObj} 
           className="flex gap-6" 
@@ -42,8 +38,8 @@ export default function Products() {
                 height={400} 
                 className="rounded-lg object-cover"
               />
-              <div className="absolute inset-0 bg-black bg-opacity-70 opacity-0 group-hover:opacity-100 rounded-lg transition-opacity duration-300 flex items-center justify-center p-4">
-                <p className="text-white text-center">{product.desc}</p>
+              <div className="absolute inset-0 bg-black bg-opacity-80 opacity-0 group-hover:opacity-100 rounded-lg transition-opacity duration-300 flex items-center justify-center p-6">
+                <p className="text-white text-lg text-center">{product.desc}</p>
               </div>
             </div>
           ))}

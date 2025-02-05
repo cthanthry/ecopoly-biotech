@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="flex flex-col inset-0 h-screen w-screen items-center justify-center bg-slate-200 p-2 font-[family-name:var(--font-geist-sans)]">
+    <div className="flex flex-col inset-0 h-screen w-screen items-center justify-center bg-[url('/cloud.jpeg')] bg-cover bg-center p-2 font-[family-name:var(--font-geist-sans)]">
       <main className="flex flex-col min-h-screen w-full items-center justify-start pt-16 gap-4 overflow-y-auto no-scrollbar lg:w-[60%] lg:pt-36">
         <section className="flex flex-col">
           <div className="flex lg:flex-row">
