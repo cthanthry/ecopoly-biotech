@@ -21,8 +21,8 @@ const Navbar = () => {
 
   return (
     <div>
-      <div className="fixed flex z-50 h-[56px] w-full backdrop-blur-2xl"></div>
-      <nav className="fixed flex flex-row w-full z-50 bg-slate-300/80 p-2 items-center justify-between shadow-slate-400 shadow-md">
+      <div className="fixed flex z-50 h-[56px] w-full backdrop-blur-3xl"></div>
+      <nav className="fixed flex flex-row w-full z-50 bg-slate-100/80 p-2 items-center justify-between shadow-slate-400 shadow-md">
         <div className="flex items-center">
           <Image
             src={"logo.svg"}
@@ -32,7 +32,7 @@ const Navbar = () => {
             className="self-start"
           />
         </div>
-        <div className="hidden self-center lg:block absolute left-1/2 transform -translate-x-1/2">
+        <div className="hidden self-center md:block absolute left-1/2 transform -translate-x-1/2">
           <ul className="flex flex-row items-center justify-center gap-16">
             {navItems.map((item) => (
               <li key={item.label}>
@@ -46,7 +46,7 @@ const Navbar = () => {
             ))}
           </ul>
         </div>
-        <button onClick={toggleNavbar} className="text-green-700 lg:hidden">
+        <button onClick={toggleNavbar} className="text-green-700 md:hidden">
           {mobileDrawerOpen ? (
             <IoClose className="size-8" />
           ) : (
@@ -56,7 +56,7 @@ const Navbar = () => {
 
         <div
           ref={mobileDrawerRef}
-          className={`fixed bottom-0 right-0 z-50 mx-auto flex h-[75vh] w-[100vw] bg-slate-300/80 flex-col items-center overflow-y-auto rounded-t-3xl shadow-2xl transition-all duration-500 ease-in-out lg:hidden ${
+          className={`fixed bottom-0 right-0 z-50 mx-auto flex h-[75vh] w-[100vw] bg-slate-100/80 flex-col items-center overflow-y-auto rounded-t-3xl shadow-2xl transition-all duration-500 ease-in-out lg:hidden ${
             mobileDrawerOpen
               ? "opacity-100 backdrop-blur-2xl shadow-2xl"
               : "pointer-events-none opacity-0"
