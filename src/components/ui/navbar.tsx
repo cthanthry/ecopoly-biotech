@@ -64,7 +64,7 @@ const Navbar = () => {
         >
           <ul
             className={`mt-16 flex transform flex-col items-center space-y-16 transition-transform duration-500 ease-out ${
-              mobileDrawerOpen ? "translate-y-0" : "-translate-y-8"
+              mobileDrawerOpen ? "-translate-y-0" : "translate-y-24"
             }`}
           >
             {navItems.map((item) => (
