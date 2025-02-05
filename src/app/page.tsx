@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -9,16 +10,16 @@ export default function Home() {
             <div className="hidden lg:block px-8">
               <Image src={"logo.svg"} alt="Logo" width={300} height={300} />
             </div>
-            <div className="flex flex-col w-full items-center justify-center bg-green-700 px-2 py-8 gap-4 rounded-lg">
-              <h1 className="text-4xl md:text-6xl lg:text-8xl font-bebas font-extrabold">
+            <div className="flex flex-col w-full items-center justify-center bg-green-700 px-2 py-8 gap-4 rounded-xl">
+              <h1 className="text-4xl md:text-6xl lg:text-8xl text-center font-bebas font-extrabold">
                 Ecopoly Biotech LLP
               </h1>
-              <p className="font-semibold text-sm md:text-xl lg:text-4xl">
+              <p className="font-semibold text-sm text-center md:text-xl lg:text-4xl">
                 The Future of Sustainable Biomaterials
               </p>
             </div>
           </div>
-          <div className="pt-2 lg:pt-16">
+          <div className="pt-2 lg:py-16">
             <p className="text-sm text-black text-center md:text-md lg:text-2xl">
               Bacterial Cellulose (BC) is a game-changing biomaterial derived
               from natural fermentation, offering superior strength,
@@ -28,12 +29,12 @@ export default function Home() {
               designed for next-generation packaging and product solutions
             </p>
           </div>
-          <div className="flex flex-col w-full items-center py-6 lg:pt-24">
+          <div className="flex flex-col w-full items-center lg:border-t-2 lg:border-black py-6 lg:pt-24">
             <h2 className="text-2xl text-green-700 font-bebas font-bold p-2 md:text-4xl lg:text-6xl">
               Why Choose BC Over Plastic?
             </h2>
             <div className="grid grid-cols-2 w-full gap-4 lg:gap-14 md:grid-cols-4 lg:pt-8">
-              <div className="col-span-1 flex flex-col justify-center items-center rounded-lg bg-green-700 p-2 gap-2 lg:gap-8 lg:py-8">
+              <div className="col-span-1 flex flex-col justify-center items-center rounded-xl bg-green-700 p-2 gap-2 lg:gap-8 lg:py-8">
                 <p className="text-lg text-center font-semibold lg:text-2xl">
                   100% Biodegradable
                 </p>
@@ -47,7 +48,7 @@ export default function Home() {
                   />
                 </div>
               </div>
-              <div className="col-span-1 flex flex-col justify-center items-center rounded-lg bg-green-700 p-2 gap-2 lg:gap-8 lg:py-8">
+              <div className="col-span-1 flex flex-col justify-center items-center rounded-xl bg-green-700 p-2 gap-2 lg:gap-8 lg:py-8">
                 <p className="text-lg text-center font-semibold lg:text-2xl">
                   Eco Friendly Alternative
                 </p>
@@ -61,7 +62,7 @@ export default function Home() {
                   />
                 </div>
               </div>
-              <div className="col-span-1 flex flex-col justify-center items-center rounded-lg bg-green-700 p-2 gap-2 lg:gap-8 lg:py-8">
+              <div className="col-span-1 flex flex-col justify-center items-center rounded-xl bg-green-700 p-2 gap-2 lg:gap-8 lg:py-8">
                 <p className="text-lg text-center font-semibold lg:text-2xl">
                   Customizable & Versatile
                 </p>
@@ -75,7 +76,7 @@ export default function Home() {
                   />
                 </div>
               </div>
-              <div className="col-span-1 flex flex-col justify-center items-center rounded-lg bg-green-700 p-2 gap-2 lg:gap-8 lg:py-8">
+              <div className="col-span-1 flex flex-col justify-center items-center rounded-xl bg-green-700 p-2 gap-2 lg:gap-8 lg:py-8">
                 <p className="text-lg text-center font-semibold px-6 md:px-0 lg:text-2xl">
                   Non-Toxic & Safe
                 </p>
@@ -94,7 +95,7 @@ export default function Home() {
         </section>
         <section className="grid grid-cols-2 py-6 lg:py-24 md:w-[70%]">
           <div className="p-2 col-span-1 flex items-center justify-center text-xl text-center text-green-700 font-bebas font-semibold border-r lg:border-r-2 border-black lg:p-8">
-            <h2 className="lg:text-6xl">
+            <h2 className="text-2xl md:text-4xl lg:text-6xl">
               A Sustainable Choice for a Better Future
             </h2>
           </div>
@@ -106,6 +107,35 @@ export default function Home() {
               packaging, BC is the biodegradable answer to plastic pollution.
             </p>
           </div>
+        </section>
+        <section className="flex flex-col justify-center items-center pt-8 lg:w-[60%] pb-16 lg:pb-24">
+          <h2 className="text-2xl md:text-4xl lg:text-6xl text-green-700 font-bebas">
+            Explore More About Our Company
+          </h2>
+          <div className="grid grid-cols-2 w-full gap-x-6 py-6 lg:py-12 lg:px-32">
+            <div className="col-span-1 flex justify-center lg:px-12">
+              <Link
+                href={"/products"}
+                className="p-1 md:p-2 w-full bg-transparent text-green-700 text-lg md:text-xl lg:text-2xl font-semibold text-center border-2 border-green-700 rounded-3xl hover:bg-green-700 hover:text-white"
+              >
+                Products
+              </Link>
+            </div>
+            <div className="col-span-1 flex justify-center lg:px-12">
+              <Link
+                href={"/about"}
+                className="p-1 md:p-2 w-full bg-transparent text-green-700 text-lg md:text-xl lg:text-2xl font-semibold text-center border-2 border-green-700 rounded-3xl hover:bg-green-700 hover:text-white"
+              >
+                About Us
+              </Link>
+            </div>
+          </div>
+          <Image
+            src={"/banner.svg"}
+            alt="Logo banner"
+            width={240}
+            height={80}
+          />
         </section>
       </main>
     </div>

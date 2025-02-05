@@ -23,7 +23,7 @@ const Navbar = () => {
     <div>
       <div className="fixed flex z-50 h-[56px] w-full backdrop-blur-3xl"></div>
       <nav className="fixed flex flex-row w-full z-50 bg-slate-100/80 p-2 items-center justify-between shadow-slate-400 shadow-md">
-        <div className="flex items-center">
+        <Link href={"/"} className="flex items-center">
           <Image
             src={"logo.svg"}
             alt="logo"
@@ -31,7 +31,7 @@ const Navbar = () => {
             height={40}
             className="self-start"
           />
-        </div>
+        </Link>
         <div className="hidden self-center md:block absolute left-1/2 transform -translate-x-1/2">
           <ul className="flex flex-row items-center justify-center gap-16">
             {navItems.map((item) => (
