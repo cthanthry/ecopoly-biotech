@@ -32,7 +32,7 @@ const Navbar = () => {
             className="self-start"
           />
         </div>
-        <div className="hidden self-center lg:block absolute left-1/2 transform -translate-x-1/2">
+        <div className="hidden self-center md:block absolute left-1/2 transform -translate-x-1/2">
           <ul className="flex flex-row items-center justify-center gap-16">
             {navItems.map((item) => (
               <li key={item.label}>
@@ -46,7 +46,7 @@ const Navbar = () => {
             ))}
           </ul>
         </div>
-        <button onClick={toggleNavbar} className="text-green-700 lg:hidden">
+        <button onClick={toggleNavbar} className="text-green-700 md:hidden">
           {mobileDrawerOpen ? (
             <IoClose className="size-8" />
           ) : (
