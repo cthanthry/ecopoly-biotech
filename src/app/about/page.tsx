@@ -63,16 +63,23 @@ export default function About() {
                   className="rounded-lg object-cover"
                 />
               </div>
-              <p className="text-sm text-green-700 lg:text-2xl font-semibold mt-2 text-center">
+              <p className="text-xl text-green-700 lg:text-2xl font-semibold mt-2 text-center">
                 Dr. VIDYA S.M
               </p>
-              <p className="text-xs text-black lg:text-lg text-center">
+              <p className="text-lg text-black font-bold lg:text-xl text-center">
                 (Chairman) Founder
               </p>
-              <p className="text-xs text-neutral-700 lg:text-sm text-center">
-                Production and characterization of Biopolymers - 10 years
-                experience
+              <p className="text-md text-black text-center font-semibold mt-4">
+                Professor in Department of Biotechnology
               </p>
+              <p className="text-xs text-neutral-700 lg:text-sm text-center">
+                NMAMIT Nitte Deemed to be University
+              </p>
+              <div className="mt-10 w-full h-[56px] border-t border-black">
+                <p className="p-2 text-black text-sm text-center">
+                  Production and Characterization of Biopolymers - 10 Years
+                </p>
+              </div>
             </div>
             <div className="flex flex-col items-center justify-center p-4 border rounded-xl bg-white shadow-md">
               <div className="w-36 h-48 relative">
@@ -83,15 +90,23 @@ export default function About() {
                   className="rounded-lg object-cover"
                 />
               </div>
-              <p className="text-sm text-green-700 lg:text-2xl font-semibold mt-2 text-center">
+              <p className="text-xl text-green-700 lg:text-2xl font-semibold mt-2 text-center">
                 CHANDRIKA S TANTRY
               </p>
-              <p className="text-xs text-black lg:text-lg text-center">
+              <p className="text-lg text-black font-bold lg:text-xl text-center">
                 (CEO) Founder
               </p>
-              <p className="text-xs text-neutral-700 lg:text-sm text-center">
-                2 years of research on polymers
+              <p className="text-md text-black text-center font-semibold mt-4">
+                Research scholar in Department of Biotechnology
               </p>
+              <p className="text-xs text-neutral-700 lg:text-sm text-center">
+                NMAMIT Nitte Deemed to be University
+              </p>
+              <div className="mt-10 w-full h-[56px] border-t border-black">
+                <p className="p-2 text-black text-sm text-center">
+                  Research on Polymers - 2 Years
+                </p>
+              </div>
             </div>
             <div className="flex flex-col items-center justify-center p-4 border rounded-xl bg-white shadow-md">
               <div className="w-36 h-48 relative">
@@ -102,22 +117,30 @@ export default function About() {
                   className="rounded-lg object-cover"
                 />
               </div>
-              <p className="text-sm text-green-700 lg:text-2xl font-semibold mt-2 text-center">
+              <p className="text-xl text-green-700 lg:text-2xl font-semibold mt-2 text-center">
                 Dr. SANTHOSH POOJARY
               </p>
-              <p className="text-xs text-black lg:text-lg text-center">
+              <p className="text-lg text-black font-bold lg:text-xl text-center">
                 (Managing Partner)
               </p>
-              <p className="text-xs text-neutral-700 lg:text-sm text-center">
-                Starch bioplastic production (2 years experience) and Pilot
-                Biofuel (12 years)
+              <p className="text-md text-black text-center font-semibold mt-4">
+                Assistant professor in Department of Biotechnology
               </p>
+              <p className="text-xs text-neutral-700 lg:text-sm text-center">
+                NMAMIT Nitte Deemed to be University
+              </p>
+              <div className="mt-10 w-full h-[56px] border-t border-black">
+                <p className="p-2 text-black text-sm text-center">
+                  Starch Bioplastic Production - 2 Years
+                  <br /> and Pilot Biofuel - 12 Years
+                </p>
+              </div>
             </div>
           </div>
         </section>
 
         <section className="grid grid-cols-5 py-8 gap-y-16 lg:gap-y-24 md:w-[80%] lg:w-[70%]">
-          <div className="p-2 lg:p-4 col-span-2 flex items-center justify-center text-xl text-center text-green-700 font-bebas font-semibold border-r border-black">
+          <div className="p-2 lg:p-4 col-span-2 flex items-center justify-center text-xl text-center text-green-700 font-bebas font-semibold border-r-2 border-black">
             <h2 className="md:text-2xl lg:text-6xl">Our Journey</h2>
           </div>
           <div className="p-2 lg:p-4 col-span-3">
@@ -140,11 +163,11 @@ export default function About() {
               sustainability goals.
             </p>
           </div>
-          <div className="p-2 lg:p-4 col-span-2 flex items-center justify-center text-xl text-center text-green-700 font-bebas font-semibold border-l border-black">
+          <div className="p-2 lg:p-4 col-span-2 flex items-center justify-center text-xl text-center text-green-700 font-bebas font-semibold border-l-2 border-black">
             <h2 className="md:text-2xl lg:text-6xl">What We Do</h2>
           </div>
           <div className="flex flex-row w-full col-span-5">
-            <div className="p-2 lg:p-4 flex items-center justify-center text-xl text-center text-green-700 font-bebas font-semibold border-r border-black">
+            <div className="p-2 lg:p-4 flex items-center justify-center text-xl text-center text-green-700 font-bebas font-semibold border-r-2 border-black">
               <h2 className="p-2 md:text-2xl lg:text-6xl lg:p-8">
                 Our Commitment to Sustainability
               </h2>
