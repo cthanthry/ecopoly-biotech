@@ -100,7 +100,7 @@ export default function Home() {
             </h2>
           </div>
           <div className="p-2 col-span-1 lg:p-8">
-            <p className="text-black text-sm text-center lg:text-2xl">
+            <p className="text-black text-sm text-left lg:text-2xl">
               Our biomaterials provide an eco-friendly alternative that helps
               businesses and consumers reduce their environmental footprint.
               Whether you need customized solutions or scalable sustainable

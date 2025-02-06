@@ -140,7 +140,7 @@ export default function About() {
         </section>
 
         <section className="grid grid-cols-5 py-8 gap-y-16 lg:gap-y-24 md:w-[80%] lg:w-[70%]">
-          <div className="p-2 lg:p-4 col-span-2 flex items-center justify-center text-xl text-center text-green-700 font-bebas font-semibold border-r-2 border-black">
+          <div className="p-2 lg:p-4 col-span-2 flex items-center justify-center text-xl text-center text-green-700 font-bebas font-semibold border-r lg:border-r-2 border-black">
             <h2 className="md:text-2xl lg:text-6xl">Our Journey</h2>
           </div>
           <div className="p-2 lg:p-4 col-span-3">
@@ -163,11 +163,11 @@ export default function About() {
               sustainability goals.
             </p>
           </div>
-          <div className="p-2 lg:p-4 col-span-2 flex items-center justify-center text-xl text-center text-green-700 font-bebas font-semibold border-l-2 border-black">
+          <div className="p-2 lg:p-4 col-span-2 flex items-center justify-center text-xl text-center text-green-700 font-bebas font-semibold border-l lg:border-l-2 border-black">
             <h2 className="md:text-2xl lg:text-6xl">What We Do</h2>
           </div>
           <div className="flex flex-row w-full col-span-5">
-            <div className="p-2 lg:p-4 flex items-center justify-center text-xl text-center text-green-700 font-bebas font-semibold border-r-2 border-black">
+            <div className="p-2 lg:p-4 flex items-center justify-center text-xl text-center text-green-700 font-bebas font-semibold border-r lg:border-r-2 border-black">
               <h2 className="p-2 md:text-2xl lg:text-6xl lg:p-8">
                 Our Commitment to Sustainability
               </h2>
