@@ -33,7 +33,7 @@ export default function Home() {
             <h2 className="text-2xl text-green-700 font-bebas font-bold p-2 md:text-4xl lg:text-6xl">
               Why Choose BC Over Plastic?
             </h2>
-            <div className="grid grid-cols-2 w-full gap-4 lg:gap-14 md:grid-cols-4 lg:pt-8">
+            <div className="grid grid-cols-2 w-full gap-4 lg:gap-8 md:grid-cols-4 lg:pt-8 text-wrap">
               <div className="col-span-1 flex flex-col justify-center items-center rounded-xl bg-green-700 p-2 gap-2 lg:gap-8 lg:py-8">
                 <p className="text-lg text-center font-semibold lg:text-2xl text-white">
                   100% Biodegradable

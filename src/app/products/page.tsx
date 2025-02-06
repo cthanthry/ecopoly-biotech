@@ -5,12 +5,12 @@ import Image from "next/image";
 
 
 const products = [
-  { src: "/product/BC 1.jpg", desc: "Bacterial cellulose is a natural, pure form of cellulose made by special bacteria that turn sugars into tiny fibers, creating a strong, gel-like material." },
-  { src: "/product/BC customize design.jpg", desc: "A customized bacterial cellulose packaging for tempeh can be designed as a breathable, biodegradable film or pouch that maintains freshness, prevents contamination, and allows natural fermentation while eliminating plastic waste." },
-  { src: "/product/BC material.jpg", desc: "Bacterial cellulose is superior in packaging because it is biodegradable, highly durable, flexible, and can be engineered for sustainable, plastic-free solutions with excellent moisture resistance and strength." },
-  { src: "/product/BC pouch.jpg", desc: "Bacterial cellulose can be customized into eco-friendly packaging by adjusting its thickness, flexibility, and barrier properties to create biodegradable films, coatings, or structural materials that replace plastic." },
-  { src: "/product/BC temphe pacakage.jpg", desc: "A biodegradable, breathable bacterial cellulose pouch designed for tempeh, featuring a semi-transparent, eco-friendly structure that supports natural fermentation while protecting freshness and reducing plastic waste." },
-  { src: "/product/BC Temphe pouch.jpg", desc: "A comparative prototype design for tempeh packaging features a conventional plastic pouch with airtight sealing versus a biodegradable bacterial cellulose pouch that is breathable, eco-friendly, and supports natural fermentation while reducing waste." },
+  { src: "/product/bacterial-cellulose.jpg", desc: "Bacterial cellulose is a natural, pure form of cellulose made by special bacteria that turn sugars into tiny fibers, creating a strong, gel-like material." },
+  { src: "/product/customize-design.jpg", desc: "A customized bacterial cellulose packaging for tempeh can be designed as a breathable, biodegradable film or pouch that maintains freshness, prevents contamination, and allows natural fermentation while eliminating plastic waste." },
+  { src: "/product/material.jpg", desc: "Bacterial cellulose is superior in packaging because it is biodegradable, highly durable, flexible, and can be engineered for sustainable, plastic-free solutions with excellent moisture resistance and strength." },
+  { src: "/product/pouch.jpg", desc: "Bacterial cellulose can be customized into eco-friendly packaging by adjusting its thickness, flexibility, and barrier properties to create biodegradable films, coatings, or structural materials that replace plastic." },
+  { src: "/product/temphe-pacakage.jpg", desc: "A biodegradable, breathable bacterial cellulose pouch designed for tempeh, featuring a semi-transparent, eco-friendly structure that supports natural fermentation while protecting freshness and reducing plastic waste." },
+  { src: "/product/temphe-pouch.jpg", desc: "A comparative prototype design for tempeh packaging features a conventional plastic pouch with airtight sealing versus a biodegradable bacterial cellulose pouch that is breathable, eco-friendly, and supports natural fermentation while reducing waste." },
 ];
 
 const breakpointColumnsObj = {
