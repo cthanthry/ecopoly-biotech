@@ -11,10 +11,10 @@ export default function About() {
       <main className="flex flex-col min-h-screen w-full items-center justify-start pt-20 gap-4 overflow-y-auto no-scrollbar lg:pt-36">
         <section className="flex flex-col md:w-[80%] lg:w-[60%]">
           <div className="w-full flex flex-col items-center justify-center bg-green-700 px-2 py-8 gap-4 rounded-xl">
-            <h1 className="text-4xl md:text-6xl lg:text-8xl font-bebas font-extrabold">
+            <h1 className="text-4xl md:text-6xl lg:text-8xl font-bebas font-extrabold text-white">
               About Us
             </h1>
-            <p className="font-semibold text-sm md:text-2xl lg:text-4xl">
+            <p className="font-semibold text-sm md:text-2xl lg:text-4xl text-white">
               Pioneering the Future of Sustainable Biomaterials
             </p>
           </div>
@@ -161,7 +161,7 @@ export default function About() {
             </h2>
             <div className="grid grid-cols-2 w-full gap-4 lg:gap-14 lg:grid-cols-4 lg:pt-8">
               <div className="col-span-1 flex flex-col justify-center items-center rounded-xl bg-green-700 p-2 gap-2 lg:gap-8 lg:py-8">
-                <p className="text-lg text-center font-semibold lg:text-2xl">
+                <p className="text-lg text-center font-semibold lg:text-2xl text-white">
                   Eco-Friendly Packaging
                 </p>
                 <div className="p-2">
@@ -169,7 +169,7 @@ export default function About() {
                 </div>
               </div>
               <div className="col-span-1 flex flex-col justify-center items-center rounded-xl bg-green-700 p-2 gap-2 lg:gap-8 lg:py-8">
-                <p className="text-lg text-center font-semibold lg:text-2xl">
+                <p className="text-lg text-center font-semibold lg:text-2xl text-white">
                   Sustainable Alternatives
                 </p>
                 <div className="p-2">
@@ -177,7 +177,7 @@ export default function About() {
                 </div>
               </div>
               <div className="col-span-1 flex flex-col justify-center items-center rounded-xl bg-green-700 p-2 gap-2 lg:gap-8 lg:py-8">
-                <p className="text-lg text-center font-semibold lg:text-2xl">
+                <p className="text-lg text-center font-semibold lg:text-2xl text-white">
                   Customizable Biomaterial Solutions
                 </p>
                 <div className="p-2">
@@ -185,7 +185,7 @@ export default function About() {
                 </div>
               </div>
               <div className="col-span-1 flex flex-col justify-center items-center rounded-xl bg-green-700 p-2 gap-2 lg:gap-8 lg:py-8">
-                <p className="text-lg text-center font-semibold lg:text-2xl">
+                <p className="text-lg text-center font-semibold lg:text-2xl text-white">
                   Technology Licensing & Partnerships
                 </p>
                 <div className="p-2">
@@ -197,10 +197,10 @@ export default function About() {
         </section>
 
         <section className="w-full bg-green-700 p-4 border rounded-xl mb-10 md:w-[80%] lg:w-[60%]">
-          <h3 className="text-xl lg:text-4xl font-bold text-center mb-10">
+          <h3 className="text-xl lg:text-4xl font-bold text-center mb-10 text-white">
             Company Details
           </h3>
-          <div className="flex flex-col gap-2">
+          <div className="flex flex-col gap-2 text-white">
             <p className="text-sm lg:text-xl text-left">
               <strong>Company Name:</strong> Ecopoly Biotech LLP
             </p>

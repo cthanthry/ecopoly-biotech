@@ -11,10 +11,10 @@ export default function Home() {
               <Image src={"logo.svg"} alt="Logo" width={300} height={300} />
             </div>
             <div className="flex flex-col w-full items-center justify-center bg-green-700 px-2 py-8 gap-4 rounded-xl">
-              <h1 className="text-4xl md:text-6xl lg:text-8xl text-center font-bebas font-extrabold">
+              <h1 className="text-4xl md:text-6xl lg:text-8xl text-center font-bebas font-extrabold text-white">
                 Ecopoly Biotech LLP
               </h1>
-              <p className="font-semibold text-sm text-center md:text-xl lg:text-4xl">
+              <p className="font-semibold text-sm text-center md:text-xl lg:text-4xl text-white">
                 The Future of Sustainable Biomaterials
               </p>
             </div>
@@ -35,7 +35,7 @@ export default function Home() {
             </h2>
             <div className="grid grid-cols-2 w-full gap-4 lg:gap-14 md:grid-cols-4 lg:pt-8">
               <div className="col-span-1 flex flex-col justify-center items-center rounded-xl bg-green-700 p-2 gap-2 lg:gap-8 lg:py-8">
-                <p className="text-lg text-center font-semibold lg:text-2xl">
+                <p className="text-lg text-center font-semibold lg:text-2xl text-white">
                   100% Biodegradable
                 </p>
                 <div className="p-2">
@@ -49,7 +49,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="col-span-1 flex flex-col justify-center items-center rounded-xl bg-green-700 p-2 gap-2 lg:gap-8 lg:py-8">
-                <p className="text-lg text-center font-semibold lg:text-2xl">
+                <p className="text-lg text-center font-semibold lg:text-2xl text-white">
                   Eco Friendly Alternative
                 </p>
                 <div className="p-2">
@@ -63,7 +63,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="col-span-1 flex flex-col justify-center items-center rounded-xl bg-green-700 p-2 gap-2 lg:gap-8 lg:py-8">
-                <p className="text-lg text-center font-semibold lg:text-2xl">
+                <p className="text-lg text-center font-semibold lg:text-2xl text-white">
                   Customizable & Versatile
                 </p>
                 <div className="p-2">
@@ -77,7 +77,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="col-span-1 flex flex-col justify-center items-center rounded-xl bg-green-700 p-2 gap-2 lg:gap-8 lg:py-8">
-                <p className="text-lg text-center font-semibold px-6 md:px-0 lg:text-2xl">
+                <p className="text-lg text-center font-semibold px-6 md:px-0 lg:text-2xl text-white">
                   Non-Toxic & Safe
                 </p>
                 <div className="p-2">
