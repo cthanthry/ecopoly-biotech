@@ -14,19 +14,19 @@ export default function About() {
             <h1 className="text-4xl md:text-6xl lg:text-8xl font-bebas font-extrabold text-white">
               About Us
             </h1>
-            <p className="font-semibold text-sm md:text-2xl lg:text-4xl text-white">
+            <p className="font-semibold text-sm md:text-2xl lg:text-4xl text-white text-center">
               Pioneering the Future of Sustainable Biomaterials
             </p>
           </div>
-            <p className="text-sm text-black text-center py-8 lg:py-16 md:text-lg lg:text-2xl">
-              At Ecopoly Biotech, we are committed to transforming the world of
-              materials with bacterial cellulose (BC)—a natural, biodegradable,
-              and eco-friendly alternative to plastic. Our mission is to
-              eliminate single-use plastic waste by offering high-performance,
-              biodegradable, and eco-friendly alternatives using bacterial
-              cellulose, while fostering socio-economic development through
-              sustainable innovation and responsible production.
-            </p>
+          <p className="text-sm text-black text-center py-8 lg:py-16 md:text-lg lg:text-2xl">
+            At Ecopoly Biotech, we are committed to transforming the world of
+            materials with bacterial cellulose (BC)—a natural, biodegradable,
+            and eco-friendly alternative to plastic. Our mission is to eliminate
+            single-use plastic waste by offering high-performance,
+            biodegradable, and eco-friendly alternatives using bacterial
+            cellulose, while fostering socio-economic development through
+            sustainable innovation and responsible production.
+          </p>
           <div className="flex flex-col p-4 py-8 lg:py-16 border-b-2 border-black">
             <h2 className="text-2xl font-bold lg:text-4xl text-green-700">
               Vision
@@ -63,10 +63,10 @@ export default function About() {
                   className="rounded-lg object-cover"
                 />
               </div>
-              <p className="text-sm text-green-700 lg:text-2xl font-semibold mt-2">
+              <p className="text-sm text-green-700 lg:text-2xl font-semibold mt-2 text-center">
                 Dr. VIDYA S.M
               </p>
-              <p className="text-xs text-black lg:text-lg">
+              <p className="text-xs text-black lg:text-lg text-center">
                 (Chairman) Founder
               </p>
               <p className="text-xs text-neutral-700 lg:text-sm text-center">
@@ -83,10 +83,12 @@ export default function About() {
                   className="rounded-lg object-cover"
                 />
               </div>
-              <p className="text-sm text-green-700 lg:text-2xl font-semibold mt-2">
+              <p className="text-sm text-green-700 lg:text-2xl font-semibold mt-2 text-center">
                 CHANDRIKA S TANTRY
               </p>
-              <p className="text-xs text-black lg:text-lg">(CEO) Founder</p>
+              <p className="text-xs text-black lg:text-lg text-center">
+                (CEO) Founder
+              </p>
               <p className="text-xs text-neutral-700 lg:text-sm text-center">
                 2 years of research on polymers
               </p>
@@ -100,10 +102,10 @@ export default function About() {
                   className="rounded-lg object-cover"
                 />
               </div>
-              <p className="text-sm text-green-700 lg:text-2xl font-semibold mt-2">
+              <p className="text-sm text-green-700 lg:text-2xl font-semibold mt-2 text-center">
                 Dr. SANTHOSH POOJARY
               </p>
-              <p className="text-xs text-black lg:text-lg">
+              <p className="text-xs text-black lg:text-lg text-center">
                 (Managing Partner)
               </p>
               <p className="text-xs text-neutral-700 lg:text-sm text-center">
@@ -114,12 +116,12 @@ export default function About() {
           </div>
         </section>
 
-        <section className="grid grid-cols-5 py-8 gap-y-16 lg:gap-y-24 md:w-[80%] lg:w-[60%]">
+        <section className="grid grid-cols-5 py-8 gap-y-16 lg:gap-y-24 md:w-[80%] lg:w-[70%]">
           <div className="p-2 lg:p-4 col-span-2 flex items-center justify-center text-xl text-center text-green-700 font-bebas font-semibold border-r border-black">
             <h2 className="md:text-2xl lg:text-6xl">Our Journey</h2>
           </div>
           <div className="p-2 lg:p-4 col-span-3">
-            <p className="text-black text-sm text-center lg:text-2xl">
+            <p className="text-black text-sm text-left lg:text-2xl">
               Driven by the urgent need to combat microplastic pollution, we
               embarked on a mission to create a better, safer, and greener
               alternative to conventional single-use plastics. Through years of
@@ -130,7 +132,7 @@ export default function About() {
             </p>
           </div>
           <div className="p-2 lg:p-4 col-span-3">
-            <p className="text-black text-sm text-center lg:text-2xl">
+            <p className="text-black text-sm text-left lg:text-2xl">
               We specialize in producing high-quality BC biomaterials that cater
               to a wide range of applications, including packaging, textiles,
               cosmetics, and medical products. By working closely with
@@ -141,17 +143,21 @@ export default function About() {
           <div className="p-2 lg:p-4 col-span-2 flex items-center justify-center text-xl text-center text-green-700 font-bebas font-semibold border-l border-black">
             <h2 className="md:text-2xl lg:text-6xl">What We Do</h2>
           </div>
-          <div className="p-2 lg:p-4 col-span-2 flex items-center justify-center text-xl text-center text-green-700 font-bebas font-semibold border-r border-black">
-            <h2 className="md:text-2xl lg:text-6xl">Our Commitment to Sustainability</h2>
-          </div>
-          <div className="p-2 lg:p-4 col-span-3">
-            <p className="text-black text-sm text-center lg:text-2xl">
-              We believe in a world where plastic waste is a thing of the past.
-              Hence our entire production process is designed to be
-              eco-conscious, circular, and resource-efficient—ensuring that
-              every material we create leaves a positive impact on the
-              environment.
-            </p>
+          <div className="flex flex-row w-full col-span-5">
+            <div className="p-2 lg:p-4 flex items-center justify-center text-xl text-center text-green-700 font-bebas font-semibold border-r border-black">
+              <h2 className="p-2 md:text-2xl lg:text-6xl lg:p-8">
+                Our Commitment to Sustainability
+              </h2>
+            </div>
+            <div className="p-2 lg:p-4 flex items-center">
+              <p className="text-black text-sm text-left lg:text-2xl">
+                We believe in a world where plastic waste is a thing of the
+                past. Hence our entire production process is designed to be
+                eco-conscious, circular, and resource-efficient—ensuring that
+                every material we create leaves a positive impact on the
+                environment.
+              </p>
+            </div>
           </div>
         </section>
         <section className="flex flex-col w-full py-8 md:w-[80%] lg:pt-24 lg:w-[60%]">
@@ -159,7 +165,7 @@ export default function About() {
             <h2 className="text-4xl text-green-700 font-bebas font-bold p-2 lg:text-6xl">
               Our Key Offerings
             </h2>
-            <div className="grid grid-cols-2 w-full gap-4 lg:gap-14 lg:grid-cols-4 lg:pt-8">
+            <div className="grid grid-cols-2 w-full gap-4 lg:gap-8 lg:grid-cols-4 lg:pt-8">
               <div className="col-span-1 flex flex-col justify-center items-center rounded-xl bg-green-700 p-2 gap-2 lg:gap-8 lg:py-8">
                 <p className="text-lg text-center font-semibold lg:text-2xl text-white">
                   Eco-Friendly Packaging
@@ -196,7 +202,7 @@ export default function About() {
           </div>
         </section>
 
-        <section className="w-full bg-green-700 p-4 border rounded-xl mb-10 md:w-[80%] lg:w-[60%]">
+        <section className="w-full bg-green-700 p-4 border rounded-xl my-10 md:w-[80%] lg:w-[60%]">
           <h3 className="text-xl lg:text-4xl font-bold text-center mb-10 text-white">
             Company Details
           </h3>
@@ -212,11 +218,6 @@ export default function About() {
             </p>
             <p className="text-sm lg:text-xl text-left">
               <strong>Industry:</strong> Biomaterials & Sustainable Packaging
-            </p>
-            <p className="text-sm lg:text-xl text-left">
-              <strong>Specialization:</strong> Bacterial Cellulose (BC)
-              Production for Packaging, Textiles, Cosmetics, and Medical
-              Applications
             </p>
             <p className="text-sm lg:text-xl text-left">
               <strong>Business Model:</strong> B2B & B2C - Providing
