@@ -108,6 +108,25 @@ export default function Home() {
             </p>
           </div>
         </section>
+        <section className="flex flex-col justify-center items-center px-2 lg:px-10 lg:py-24">
+          <h2 className="text-2xl md:text-4xl lg:text-6xl text-green-700 font-bebas font-bold text-center pt-4 py-6">Awarded ELEVATE 2024-25 Grant</h2>
+          <section className="flex flex-col lg:grid lg:grid-cols-2 md:w-[70%]">
+            <p className="text-justify lg:text-left text-black text-sm lg:text-xl lg:border-r-2 border-black lg:p-8">We are proud recipients of the <strong className="text-green-700">ELEVATE 2024-25</strong> grant, a prestigious recognition by the Government of Karnataka supporting high-potential startups. This milestone marks a major step forward in our journey to develop <strong className="text-green-700">next-generation biodegradable biomaterials</strong>.
+            <br /><br />The grant empowers us to accelerate <strong className="text-green-700">R&amp;D</strong>, scale production, and drive <strong className="text-green-700">socio-economic and environmental impact</strong> by replacing single-use plastics with our sustainable bacterial cellulose-based solutions.</p>
+            <figure className="flex flex-col items-center lg:px-4 py-10">
+            <Image
+              src="/awards/award_elevate.png"
+              alt="Awarded ELEVATE 2024-25 Grant"
+              width={800}
+              height={600}
+              className="rounded-xl"
+            />
+            <figcaption className="text-sm italic text-justify lg:text-right text-gray-500 pt-2">
+              Received Award by Priyank Kharge, Minister of Rural Development and Panchayat Raj of Karnataka, and other dignitaries at the Elevate 2024 Felicitation Ceremony.
+            </figcaption>
+            </figure>
+          </section>
+        </section>
         <section className="flex flex-col justify-center items-center pt-8 lg:w-[60%] pb-16 lg:pb-24">
           <h2 className="text-2xl md:text-4xl lg:text-6xl text-green-700 font-bebas">
             Explore More About Our Company
